@@ -241,11 +241,11 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 360px;
+  width: 520px;
   height: 1px;
   background: #9a9ea5;
   bottom: 1px;
-  left: calc(50% - 180px);
+  left: calc(50% - 260px);
 }
 
 .obererStrich {
@@ -256,15 +256,15 @@ section {
   color: #4977a1; 
 }
 
-.obererStrich::after {
+.obererStrich::before {
   content: "";
   position: absolute;
   display: block;
-  width: 360px;
+  width: 520px;
   height: 1px;
   background: #9a9ea5;
   bottom: 1px;
-  left: calc(50% - 180px);
+  left: calc(50% - 260px);
 }
 
 .section-title p {
@@ -277,8 +277,13 @@ section {
   }
   
   .section-title h2::before {
-    width: 300px;
-    left: calc(50% - 150px);
+    width: 290px;
+    left: calc(50% - 145px);
+  }
+
+  .obererStrich::before {
+    width: 290px;
+    left: calc(50% - 145px);
   }
 }
 /*--------------------------------------------------------------
