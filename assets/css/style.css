@@ -232,12 +232,31 @@ section {
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
   position: relative;
   color: #4977a1; 
 }
 .section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 360px;
+  height: 1px;
+  background: #9a9ea5;
+  bottom: 1px;
+  left: calc(50% - 180px);
+}
+
+.obererStrich {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #4977a1; 
+}
+
+.obererStrich::after {
   content: "";
   position: absolute;
   display: block;
