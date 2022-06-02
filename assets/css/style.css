@@ -14,16 +14,6 @@ a:hover {
   text-decoration: none;
 }
 
-.camouflaged {
-  color:#9a9ea5;
-  text-decoration: none;
-}
-
-.camouflaged:hover{
-  color: #85888f;
-  text-decoration: underline;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   color: #49637e;
@@ -300,6 +290,16 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+a.camouflaged {
+  color:#9a9ea5;
+  text-decoration: none;
+}
+
+a.camouflaged:hover{
+  color: #85888f;
+  text-decoration: underline;
+}
+
 @media (max-width: 510px){
   ul {
     list-style-type: none;
