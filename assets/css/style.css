@@ -14,12 +14,12 @@ a:hover {
   text-decoration: none;
 }
 
-a .camouflaged {
+.camouflaged {
   color:#9a9ea5;
   text-decoration: none;
 }
 
-a:hover .camouflaged{
+.camouflaged:hover{
   color: #85888f;
   text-decoration: underline;
 }
@@ -296,6 +296,16 @@ section {
     left: calc(50% - 145px);
   }
 }
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+@media (max-width: 510px){
+  ul {
+    list-style-type: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Lebenslauf
 --------------------------------------------------------------*/
