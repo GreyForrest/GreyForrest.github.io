@@ -302,12 +302,6 @@ a.camouflaged:hover{
   text-decoration: underline;
 }
 
-@media (max-width: 510px){
-  ul {
-    list-style-type: none;
-  }
-}
-
 /*--------------------------------------------------------------
 # Lebenslauf
 --------------------------------------------------------------*/
