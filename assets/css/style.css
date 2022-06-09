@@ -46,7 +46,19 @@ h1, h2, h3, h4, h5, h6 {
 # Navbar
 --------------------------------------------------------------*/
 .bg-navbar{
+  background-color: #4977a1
+}
+
+.bg-navbar svg {
+  fill: #28282B;
+}
+
+.bg-navbar:hover {
   background-color: #28282B;
+}
+
+.bg-navbar:hover svg {
+  fill: #4977a1;
 }
 .nav-menu {
   padding: 0;
