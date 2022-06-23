@@ -325,10 +325,7 @@ a.camouflaged:hover{
   margin-bottom: 30px;
 }
 .lebenslauf th {
-  width: 50%;
-}
-.lebenslauf td{
-  width: 50%;
+  width: 30%;
 }
 
 @media (max-width: 992px) {
