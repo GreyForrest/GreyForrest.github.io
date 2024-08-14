@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Bewerbungswebsite von Melanie Völlmin für das IMS Praktikum" name="description">
-  <meta content="IMS, Praktikum, Bewerbung, Melanie Völlmin, Lebenslauf, Skills, Projekte, Programmieren" name="keywords">
+  <meta content="Bewerbungswebsite von Melanie Völlmin" name="description">
+  <meta content="IMS, Bewerbung, Melanie Völlmin, Lebenslauf, Skills, Projekte, Programmieren, Informatik, Informatikerin" name="keywords">
 
   <title>Melanie Völlmin</title>
   <link rel="shortcut icon" type="image/jpg" href="assets/img/favicon.ico" />
@@ -55,8 +55,8 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
     <ul class="navbar-nav mr-auto">
       <li><a href="#home" class="nav-link active"><i class="bx bxs-home"></i> <span>Home</span></a></li>
-      <li><a href="#skills" class="nav-link"><i class="bx bxs-palette"></i> <span>Meine Skills</span></a>
-      </li>
+      <li><a href="#about-me" class="nav-link"><i class="bx bxs-book-heart"></i> <span>Über mich</span></a></li>
+      <li><a href="#skills" class="nav-link"><i class="bx bxs-palette"></i> <span>Skills</span></a></li>
       <li><a href="#lebenslauf" class="nav-link"><i class="bx bxs-file"></i> <span>Lebenslauf</span></a></li>
       <li><a href="#projekte" class="nav-link"><i class="bx bxs-folder"></i> <span>Projekte</span></a></li>
       <li><a href="#leidenschaften" class="nav-link"><i class="bx bxs-user-circle"></i> <span>Meine
@@ -81,13 +81,31 @@
           </div>
         </div>
         <div class="col text-center align-middle">
-          <img src="assets/img/Me.jpeg" id="image" alt="Bild von mir">
+          <img src="assets/img/Me.jpg" id="image" alt="Bild von mir">
         </div>
       </div>
     </div>
   </section>
 
   <main id="main">
+        <!-- Über mich -->
+        <section id="about-me" class="about-me">
+          <div class="container">
+            <div class="section-title">
+              <p class="obererStrich"></p>
+              <h2>Über mich</h2>
+              <p>Eine kurze Zusammenfassung zu mir:</p>
+              <p>Mein Name ist Melanie Völlmin, ich bin 20 Jahre alt und habe seit 2024 den <b>Abschluss als Informatikerin Applikationsentwicklung EFZ gemeinsam mit der Wirtschafts-BM</b>. 
+                Dafür habe ich von 2020 - 2023 die Informatikmittelschule in Baden absolviert und anschliessend ein Jahr lang ein Praktikum bei der Schweizerischen Nationalbank 
+                in Zürich absolviert. Anschliessend habe ich ein halbes Jahr 60%/40% in zwei Abteilungen der Nationalbank weitergearbeitet.
+                Die Informatikmittelschule in Baden habe ich als <b>Jahrgangsbeste und einziges Mädchen</b> abgeschlossen. In der Berufsmatur habe ich den <b>Talent Award</b> für die beste 
+                Abschlussnote bekommen und meine EFZ Abschlussnote war unter den Top 3 Noten aller Informatik-EFZ-Abgänger 2024 im Aargau. 
+                Meine Freizeit verbringe ich gerne mit <b>Flag Football oder Gaming</b>. Ich bin sehr interessiert an der Informatik, und wenn ich Zeit und Ideen habe, setze ich auch gerne 
+                Informatikprojekte in der Freizeit um.</p>
+            </div>
+          </div>
+        </section>
+
     <!-- Skills -->
     <section id="skills" class="skills">
       <div class="container">
@@ -104,13 +122,17 @@
               <h3>HTML, CSS und JavaScript</h3>
               <p>Wir haben nicht allzu viel mit HTML und CSS gemacht, haben uns jedoch Bootstrap und das MVC Modell angeschaut. 
                 JavaScript und JQuery wurden bis jetzt nur kurz bearbeitet. Ich habe bereits mit React gearbeitet, sowohl Component- als auch Functionbased.
+                In meinem halben Zusatzjahr an der SNB programmiere ich mehrere Excel-Simulationspiele von <a href="https://www.iconomix.ch/de/">Iconomix</a> 
+                zu Webspielen um, mit HTML, CSS/Bootstrap und JavaScript/JQuery.
               </p>
             </div>
             <div>
               <h3>SQL und SQLite</h3>
               <p>Ich habe keine Schwierigkeiten mit SQL und habe aufgrund von mehreren selber ausgewählten Projekten 
                 bereits SQLite-Datenbanken mit Javaprogrammen verbunden. 
-                Wir haben uns bei SQL normale Datenbanken sowie Trigger und Prozeduren angeschaut.
+                Wir haben uns bei SQL normale Datenbanken sowie Trigger und Prozeduren angeschaut. In meinem Praktikum habe
+                ich weiterhin viel mit SQL gearbeitet. Diese habe ich nämlich in einer Abteilung mit einem riesigen Datawarehouse absolviert.
+                Auch in meiner IPA habe ich SQL genutzt.
               </p>
             </div>
             <div>
@@ -125,7 +147,8 @@
               <h3>C#</h3>
               <p>C# war leider nicht lange ein Thema bei uns, jedoch war es unsere erste Programmiersprache und ich 
                 beherrsche zumindest die Basics. Wir haben auch mit WinForms gearbeitet, jedoch im Unterricht kein 
-                OOP in C# behandelt. Die Module sind schon etwas länger her und ich müsste zuerst einiges repetieren. 
+                OOP in C# behandelt. Diese Module waren die ersten Module der IMS und somit schon etwas länger her. In meiner Zeit bei der
+                SNB habe ich ebenfalls ein wenig mit C# gearbeitet, da einige unserer eigenentwickelten Tools in C# geschrieben sind.
               </p>
             </div>
             <div>
@@ -147,36 +170,40 @@
                   <h5 class="mt-1">Englisch</h5>
                   <p>Englisch ist meine Lieblingssprache. Ich kann Englisch ohne Probleme sprechen, lesen und verstehen. 
                     In der IMS habe ich einen Kurs für das Cambridge Advanced Exam besucht, und anschliessend auch 
-                    die Prüfung (11.06.2022) absolviert. Sobald ich die Prüfungsresultate habe, werde ich sie hier veröffentlichen.
+                    die Prüfung (11.06.2022) absolviert und bestanden. Ebenfalls Teil der IMS waren 4 Wochen in einem Sprachaufenthalt
+                    in England, wobei ich die Sprachschule "LSI Portsmouth" besucht habe.
                   </p>
                 </li>
                 <li>
                   <h5 class="mt-1">Kommunikation und Teamarbeit</h5>
-                  <p>Ein gutes Beispiel für meine Teamfähigkeit ist die Jungschar, wo ohne Teamarbeit nichts funktioniert. 
-                    Gute Kommunikation ist ebenfalls kein Problem für mich, auch davon wird in der Jungschar viel benötigt. 
-                    In der IMS habe ich Aufträge gerne im Team bearbeitet, vorallem im Lernatelier. Ich arbeite jedoch 
-                    auch selbstständig und habe meine eigenen Projekte, welche ich in meiner Freizeit gemacht habe.
+                  <p>Ein gutes Beispiel für meine Teamfähigkeit ist die CEVI, die ohne Teamarbeit nicht funktioniert und in welcher ich mehrere Jahre als Leiterin aktiv war. 
+                    Gute Kommunikation ist ebenfalls kein Problem für mich, auch davon wurde in der CEVI viel benötigt. 
+                    In der IMS habe ich vorallem im Lernatelier viele Aufträge im Team bearbeitet und auch im privaten Umfeld setze ich gerne Projekte mit Freunden um. 
+                    Ich kann jedoch auch selbstständig arbeiten und habe meine eigenen Projekte, welche ich in meiner Freizeit gemacht habe.
                   </p>
                 </li>
                 <li>
                   <h5 class="mt-1">Kreativität</h5>
                   <p>Ich war schon immer ein kreativer Mensch. Ich schreibe gerne Geschichten und habe auch viel 
-                    gezeichnet. Auch in der Jungschar muss man kreativ unterwegs sein, um die Kinder unterhalten zu können. 
+                    gezeichnet. Auch in der CEVI war ich immer kreativ unterwegs, um die unsere "Jungschi-Kinder" unterhalten zu können. 
                     In der Informatik komme ich immer wieder mit kreativen Lösungen für Probleme auf und plane kreative 
                     eigene Projekte.
                   </p>
                 </li>
                 <li>
                   <h5 class="mt-1">Lernen</h5>
-                  <p>Ich lerne sehr schnell und gut, weswegen ich keine grossen Probleme mit dem Schulstoff habe. Für 
-                    logische Fächer musste ich noch nie lernen. Ich bin gut im Dinge auswendig lernen, und kann mir 
-                    wichtige Details gut merken. Diese Dinge bleiben jedoch nur länger im Kopf, wenn sie mich interessieren.
+                  <p>Ich lerne sehr schnell und gut, weswegen ich keine grossen Probleme mit dem Schulstoff hatte. Für 
+                    logische Fächer musste ich noch nie lernen. Ich bin gut darin, Dinge auswendig lernen, und kann mir 
+                    wichtige Details gut merken. Diese Informationen bleiben jedoch nur länger im Kopf, wenn sie mich interessieren.
+                    Eine neue Programmiersprache oder neue Konzepte zu lernen war für mich noch nie ein Problem. Ich kann mich gut und 
+                    schnell in Themen einarbeiten und konnte somit in meinem Praktikum auch sehr schnell Arbeiten aufgreifen.
                   </p>
                 </li>
                 <li>
-                  <h5 class="mt-1">Mathematik</h5>
+                  <h5 class="mt-1">Mathematik und Rätsel</h5>
                   <p>Ich liebe Logik, weswegen ich neben der Informatik auch viel Interesse an der Mathematik habe. 
-                    Dinge, die mit Logik zu tun haben fesseln mich am meisten und bereiten mir kaum Probleme.
+                    Dinge, die mit Logik zu tun haben fesseln mich am meisten und bereiten mir kaum Probleme. In meiner Freizeit löse ich gerne
+                    Rätsel wie zum Beispiel Sudokus mit Sonderregeln oder spiele Rätselspiele. 
                   </p>
                 </li>
               </ul>
@@ -185,28 +212,32 @@
                 <h5 class="mt-1">Englisch</h5>
                   <p>Englisch ist meine Lieblingssprache. Ich kann Englisch ohne Probleme sprechen, lesen und verstehen. 
                     In der IMS habe ich einen Kurs für das Cambridge Advanced Exam besucht, und anschliessend auch 
-                    die Prüfung (11.06.2022) absolviert. Sobald ich die Prüfungsresultate habe, werde ich sie hier veröffentlichen.
+                    die Prüfung (11.06.2022) absolviert und bestanden. Ebenfalls Teil der IMS waren 4 Wochen in einem Sprachaufenthalt
+                    in England, wobei ich die Sprachschule "LSI Portsmouth" besucht habe.
                   </p>
                   <h5 class="mt-1">Kommunikation und Teamarbeit</h5>
-                  <p>Ein gutes Beispiel für meine Teamfähigkeit ist die Jungschar, wo ohne Teamarbeit nichts funktioniert. 
-                    Gute Kommunikation ist ebenfalls kein Problem für mich, auch davon wird in der Jungschar viel benötigt. 
-                    In der IMS habe ich Aufträge gerne im Team bearbeitet, vorallem im Lernatelier. Ich arbeite jedoch 
-                    auch selbstständig und habe meine eigenen Projekte, welche ich in meiner Freizeit gemacht habe.
+                  <p>Ein gutes Beispiel für meine Teamfähigkeit ist die CEVI, die ohne Teamarbeit nicht funktioniert und in welcher ich mehrere Jahre als Leiterin aktiv war. 
+                    Gute Kommunikation ist ebenfalls kein Problem für mich, auch davon wurde in der CEVI viel benötigt. 
+                    In der IMS habe ich vorallem im Lernatelier viele Aufträge im Team bearbeitet und auch im privaten Umfeld setze ich gerne Projekte mit Freunden um. 
+                    Ich kann jedoch auch selbstständig arbeiten und habe meine eigenen Projekte, welche ich in meiner Freizeit gemacht habe.
                   </p>
                   <h5 class="mt-1">Kreativität</h5>
                   <p>Ich war schon immer ein kreativer Mensch. Ich schreibe gerne Geschichten und habe auch viel 
-                    gezeichnet. Auch in der Jungschar muss man kreativ unterwegs sein, um die Kinder unterhalten zu können. 
+                    gezeichnet. Auch in der CEVI war ich immer kreativ unterwegs, um die unsere "Jungschi-Kinder" unterhalten zu können. 
                     In der Informatik komme ich immer wieder mit kreativen Lösungen für Probleme auf und plane kreative 
                     eigene Projekte.
                   </p>
                   <h5 class="mt-1">Lernen</h5>
-                  <p>Ich lerne sehr schnell und gut, weswegen ich keine grossen Probleme mit dem Schulstoff habe. Für 
-                    logische Fächer musste ich noch nie lernen. Ich bin gut im Dinge auswendig lernen, und kann mir 
-                    wichtige Details gut merken. Diese Dinge bleiben jedoch nur länger im Kopf, wenn sie mich interessieren.
+                  <p>Ich lerne sehr schnell und gut, weswegen ich keine grossen Probleme mit dem Schulstoff hatte. Für 
+                    logische Fächer musste ich noch nie lernen. Ich bin gut darin, Dinge auswendig lernen, und kann mir 
+                    wichtige Details gut merken. Diese Informationen bleiben jedoch nur länger im Kopf, wenn sie mich interessieren.
+                    Eine neue Programmiersprache oder neue Konzepte zu lernen, war für mich noch nie ein Problem. Ich kann mich gut und 
+                    schnell in Themen einarbeiten und konnte somit in meinem Praktikum auch sehr schnell Arbeiten aufgreifen.
                   </p>
-                  <h5 class="mt-1">Mathematik</h5>
+                  <h5 class="mt-1">Mathematik und Rätsel</h5>
                   <p>Ich liebe Logik, weswegen ich neben der Informatik auch viel Interesse an der Mathematik habe. 
-                    Dinge, die mit Logik zu tun haben fesseln mich am meisten und bereiten mir kaum Probleme.
+                    Dinge, die mit Logik zu tun haben fesseln mich am meisten und bereiten mir kaum Probleme. In meiner Freizeit löse ich gerne
+                    Rätsel wie zum Beispiel Sudokus mit Sonderregeln oder spiele Rätselspiele. 
                   </p>
               </div>
             </div>
@@ -240,7 +271,7 @@
               </tr>
               <tr>
                 <th scope="col">Adresse</th>
-                <td>Schlossacker 41, 4853 Murgenthal</td>
+                <td>Scheuergasse 6, 5210 Windisch</td>
               </tr>
               <tr>
                 <th scope="col">Geburtstag</th>
@@ -270,7 +301,15 @@
           <table class="table border border-light">
             <tbody>
               <tr>
-                <th scope="col" class="text-right">2020 - jetzt</th>
+                <th scope="col" class="text-right">2024 - 2025</th>
+                <td class="text-right">Informatikerin bei der Schweizerischen Nationalbank, Zürich</td>
+              </tr>
+              <tr>
+                <th scope="col" class="text-right">2023 - 2024</th>
+                <td class="text-right">Informatikpraktikum bei der Schweizerischen Nationalbank, Zürich</td>
+              </tr>
+              <tr>
+                <th scope="col" class="text-right">2020 - 2024</th>
                 <td class="text-right">Informatikmittelschule, Baden</td>
               </tr>
               <tr>
@@ -331,6 +370,13 @@
                 <td class="text-right">Stand der Module der 1. und 2. Klasse IMS, gute Kenntnisse</td>
               </tr>
               <tr>
+                <th scope="col" class="text-right">MSSQL</th>
+                <td class="text-right">Gute Kenntnisse, häufiger Gebrauch während dem Praktikum</td>
+              </tr>
+              <tr>
+                <th scope="col" class="text-right">PowerShell</th>
+                <td class="text-right">Gute Kenntnisse, häufiger Gebrauch während dem Praktikum</td>
+              </tr>
               <tr>
                 <th scope="col" class="text-right">React</th>
                 <td class="text-right">Schwache Grundkenntnisse, in 2 Projekten benutzt, in Erarbeitung</td>
@@ -465,14 +511,11 @@
             </p>
           </div>
           <div class="col-lg-4">
-            <h3><i class="bx bxs-tree"></i> Jungschar</h3>
-            <p class="mx-1">Seit 2012 bin ich in der Jungschar Murgenthal-Fulenbach, seit der zweiten Hälfte von 2018
-              bin ich auch als Leiterin tätig.
-              Ich verbringe gerne Zeit draussen und es ist immer wieder schön, wenn man den Kindern eine Freude machen
-              kann, indem man ihnen eine attraktive Freizeitbeschäftigung bieten kann.
-              Ich übernehme gerne Verantwortung, was man auch daran erkennt, dass ich, gemeinsam mit einer Mitleiterin,
-              unseren Materialraum betreue und (alleine) unsere <a target="_blank"
-                href="https://www.jungschimurgenthal.ch/willkommen">Webseite</a> sowie andere Social Media Plattformen verwalte.
+            <h3><i class="bx bxs-ball"></i> Flag Football</h3>
+            <p class="mx-1">Seit 2022 bin ich bei der U99 Flag Football Mannschaft der Argovia Pirates aktiv. Flag Football ist die kontaktlose Variante
+              der American Footballs. Wir trainieren das ganze Jahr durch einmal pro Woche, im Winter drinnen in der Halle, im Sommer draussen auf dem Rasen.
+              Unsere Saison ist im Sommer, jeweils von circa Mai bis September. Dort haben wir in unregelmässigen Abständen an den Wochenenden in der ganzen
+              Schweiz verteilte Gamedays. Der Sport macht mir viel Spass und das Team ist wie eine zweite Familie für mich.
             </p>
           </div>
           <div class="col-lg-4">
@@ -502,7 +545,7 @@
           class="" title="Mahara"><img src="assets/img/mahara-logo-white.png" alt="Icon für Mahara" height="20px"></a>
       </div>
       <div>
-        &copy; Copyright 2022 - Melanie Völlmin. All Rights Reserved.
+        &copy; Copyright 2024 - Melanie Völlmin. All Rights Reserved.
       </div>
 
     </div>
